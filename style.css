@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    .fjalla-one-regular {
+        font-family: "Fjalla One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+    margin: 0;
+    background: white;
+    height: auto;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(255, 255, 255, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1)
+}
+
+#landing {
+    background: url(https://imgs.search.brave.com/jFevqHvSFm44a50pT_1sWXSbfFLVBGXJ-wFbzpsfIsI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MTYwMzUwNjkzNzEt/MjlhMWIyNDRjYzMy/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TW54OFky/RnRaWEpoZkdWdWZE/QjhmREI4Zkh3dw);
+    align-items: flex-end;
+
+    background-size: 40%;
+    background-position: left-centre;
+}
+
+
+
+
+#landing-text {
+    font-family: "Fjalla One", sans-serif;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+#landing-text h2 {
+    color:white;
+}
+
+
+
+#landing-image {
+    background:url(https://images.unsplash.com/photo-1552168324-d612d77725e3?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FtZXJhfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size:150%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    border-left-style: ridge;
+    margin: 0;
+}
+
+#header h2{
+    color: #ffffff;
+    font-family: Fjalla One, sans-serif;
+    
+
+}
+
+
+#view-work{
+    color: #fff;
+    border-bottom: #fff;
+    border-style: dotted;
+}
+
+
+.btn {
+    padding: 100%;
+    border: 1px solid #cbe90e;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #e2ff05;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background: #b20000;
+} 
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: 1px dotted #fff;
+    border-right: 1px dotted #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+    font-family: "Fjalla One", sans-serif;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: red;
+}
+
+
+@media(min-width: 35.25rem) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+        color: #fff;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+
+
+
+@media(min-width: 43.75rem) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+    
